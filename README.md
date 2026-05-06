@@ -52,9 +52,9 @@ Use the following credentials to sign in to the protected watchlist area:
 
 ## Deployed App
 
-Access the deployed app here:
+Access the deployed app here: https://cinesphere-movie-discover.netlify.app/
 
-https://github.com/1234Sumit/Sumit_Sunil_Satao_2489590_CineSphere
+Repository: https://github.com/1234Sumit/Sumit_Sunil_Satao_2489590_CineSphere
 
 ## Features
 
