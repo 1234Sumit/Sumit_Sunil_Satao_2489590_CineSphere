@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+  color: white;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  color: #facc15;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  color: #cbd5f5;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.detail {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #1e293b, #020617);
+}
+
+
+.login-card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 16px;
+
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.logo {
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+
+.subtitle {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+
+
+.login-card label {
+  display: block;
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #020617;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #facc15;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #facc15;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #facc15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.add-btn {
+  background: #facc15;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.added-btn {
+  background: #22c55e;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+remove-btn {
+  background: #ef4444;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.remove-btn:hover {
+  background: #dc2626;
+}
+
+.nav-search {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  background: #1e293b;
+  color: white;
+  outline: none;
+}
+
+.search-btn {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  background: #facc15;
+  color: black;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.auth-message {
+  margin-top: 10px;
+  font-size: 0.92rem;
+  color: #fde68a;
+  background: rgba(250, 204, 21, 0.12);
+  border: 1px solid rgba(250, 204, 21, 0.4);
+  border-radius: 8px;
+  padding: 8px 12px;
+  max-width: fit-content;
+}
